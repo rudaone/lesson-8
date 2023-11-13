@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="inputs">
+        <div class="inputs__1">
+            <input type="checkbox" id="first">
+            <label for="first">Эта метка для чекбокса: нажми на меня - чекбокс сменит галочку!</label>
+        </div>
+       <div class="inputs__2">
+        <input type="checkbox" id="second" checked>
+       <label for="second">Я отмечен по умолчанию!</label>
+       </div>
+       <div class="inputs__3">
+        <input type="checkbox" disabled checked>
+       <label for="checkbox">Я disabled!</label>
+       </div>
+    </div>
+
+    <div class="radio">
+       <div class="radio-1">
+        <input type="radio" id="radio-1" name="rad">
+        <label for="radio-1">"Эта метка для радио</label>
+       </div>  
+        <div class="radio-2">
+            <input type="radio" id="radio-2" name="rad">
+            <label for="radio-2">"Эта метка для радио</label>
+        </div>
+    </div>
+
+    <style>
+        .radio{
+            width:400px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            border: 1px solid black;
+            justify-content: center;
+            align-items:flex-start;
+        }
+    </style>
+</body>
+</html>
